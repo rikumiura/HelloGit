@@ -34,7 +34,7 @@ youtube.client_options.application_name = APPLICATION_NAME
 youtube.authorization = authorize
 
 optinons = {
-  :playlist_id => 'LL8snM27SpXJwfbOZEWfa08A',
+  :playlist_id => 'your youtube Library ID',
   :max_results => 2
 }
 response = youtube.list_playlist_items("snippet", optinons)
