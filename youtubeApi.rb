@@ -2,6 +2,8 @@ require 'googleauth'
 require 'googleauth/stores/file_token_store'
 require 'google/apis/youtube_v3'
 
+/*キータからパクりました*/
+
 OOB_URI = 'urn:ietf:wg:oauth:2.0:oob'
 APPLICATION_NAME = 'idolsongplaylist'
 CLIENT_SECRETS_PATH = 'client_secret.json'
